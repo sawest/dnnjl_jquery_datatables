@@ -1,0 +1,46 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="dataTables" type="JavaScript_Library" version="1.10.13">
+      <friendlyName>JQuery Datatable Plugin</friendlyName>
+      <description><![CDATA[ 
+<p>DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table.</p>
+      ]]></description>
+      <owner>
+        <name>Steven A West</name>
+        <organization>Itawamba Community College</organization>
+        <url>http://www.iccms.edu</url>
+        <email>sawest@iccms.edu</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="Readme.md" />
+      <azureCompatible>true</azureCompatible>
+      <components>
+       <component type="JavaScript_Library">
+ <javaScriptLibrary>
+            <libraryName>datatables-jquery</libraryName>
+            <fileName>jquery.dataTables.min.js</fileName>
+            <preferredScriptLocation>BodyBottom</preferredScriptLocation>
+            <CDNPath>https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js</CDNPath>
+            <objectName>datatables-jquery</objectName>
+          </javaScriptLibrary>
+               </component>
+<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>dataTables</libraryFolderName>
+              <jsfile>
+		<name>jquery.dataTables.min.js</name>
+		</jsfile>
+          </jsfiles>
+        </component> 
+ <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Resources\Libraries\dataTables\01_10_13</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
