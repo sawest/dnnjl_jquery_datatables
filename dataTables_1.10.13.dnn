@@ -26,7 +26,7 @@
                </component>
 <component type="JavaScriptFile">
           <jsfiles>
-            <libraryFolderName>dataTables</libraryFolderName>
+            <libraryFolderName>datatables-jquery</libraryFolderName>
               <jsfile>
 		<name>jquery.dataTables.min.js</name>
 		</jsfile>
@@ -34,7 +34,7 @@
         </component> 
  <component type="ResourceFile">
           <resourceFiles>
-            <basePath>Resources\Libraries\dataTables\01_10_13</basePath>
+            <basePath>Resources\Libraries\datatables-jquery\01_10_13</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>
